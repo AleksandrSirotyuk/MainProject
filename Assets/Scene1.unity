@@ -2416,23 +2416,20 @@ MonoBehaviour:
   m_GameObject: {fileID: 670979379}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 24c6195ad3eea9e44b107f4e86e3b608, type: 3}
+  m_Script: {fileID: 11500000, guid: 763db0b3e6dd3fc47b9f656c416da000, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   waves:
   - name: 
     enemy: {fileID: 973353490}
     count: 3
-    rate: 1
+    rate: 2
   - name: 
     enemy: {fileID: 973353490}
     count: 4
-    rate: 3
-  _nextWave: 0
+    rate: 2
   timeBetweenWaves: 5
   waveCountdown: 1
-  _searchDelay: 1
-  _state: 2
   SpawnPoints:
   - {fileID: 2134199802}
   - {fileID: 473920323}
