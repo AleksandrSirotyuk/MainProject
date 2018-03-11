@@ -51,14 +51,6 @@ public class Login : MonoBehaviour
             Debug.Log("Form LOGIN upload complete!");
             Debug.Log(www.downloadHandler.text);
             Debug.Log(www.url);
-
-            if (www.downloadHandler.text != "Bad Registration")
-            {
-                Debug.Log("HERE1:");
-                GlobalControl.Instance.email = www.downloadHandler.text;
-                Debug.Log("HERE:");
-                Debug.Log(GlobalControl.Instance.email);
-            }
         }
     }
     public void GetBack()
