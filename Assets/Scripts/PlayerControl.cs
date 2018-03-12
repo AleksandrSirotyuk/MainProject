@@ -9,6 +9,7 @@ public class PlayerControl : MonoBehaviour {
 	private bool IsGround = false;
     GameObject WarriorClass;
     Warrior wrr;
+    GameObject weapon;
 
     private Rigidbody2D RB;
 
@@ -37,7 +38,9 @@ public class PlayerControl : MonoBehaviour {
 			Jump ();
         if (speed != wrr.GetSpeed())
             speed = wrr.GetSpeed();
-	}
+        if (Input.GetKeyDown(KeyCode.LeftControl))
+            Attack();
+    }
 	private void Run()
 	{
 		Vector3 direction = transform.right * Input.GetAxis ("Horizontal");
@@ -63,4 +66,8 @@ public class PlayerControl : MonoBehaviour {
 
 		IsGround = colliders.Length > 1;
 	}
+    private void Attack()
+    {
+        weapon.SetActive(true);
+    }
 }

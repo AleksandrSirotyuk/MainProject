@@ -46,11 +46,13 @@ public class Login : MonoBehaviour
         {
             Debug.Log(www.error);
         }
-        else
+        if (www.downloadHandler.text != "Bad Registration")
         {
-            Debug.Log("Form LOGIN upload complete!");
-            Debug.Log(www.downloadHandler.text);
-            Debug.Log(www.url);
+            Debug.Log("HERE1:");
+            GlobalControl.Instance.email = www.downloadHandler.text;
+            GlobalControl.Instance.isAuth = true;
+            Debug.Log("HERE:");
+            Debug.Log(GlobalControl.Instance.email);
         }
     }
     public void GetBack()

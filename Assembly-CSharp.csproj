@@ -217,6 +217,7 @@
      <Compile Include="Assets\Scripts\Saw.cs" />
      <Compile Include="Assets\Scripts\Skills.cs" />
      <Compile Include="Assets\Scripts\SomeCharacter.cs" />
+     <Compile Include="Assets\Scripts\Sward.cs" />
      <Compile Include="Assets\Scripts\Warrior.cs" />
      <Compile Include="Assets\Scripts\WaveSpawner.cs" />
      <None Include="Assets\MainMenu\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
@@ -248,7 +249,7 @@
      <None Include="Assets\MainMenu\TextMesh Pro\Examples &amp; Extras\Fonts\Bangers - OFL.txt" />
      <None Include="Assets\Scripts\AstarPathfindingProject\link.xml" />
  <Reference Include="Facebook.Unity.Settings">
- <HintPath>C:/Users/Aleks/Documents/GitHub/MainProject/Library/FacebookSDK/Facebook.Unity.Settings.dll</HintPath>
+ <HintPath>C:/Users/Aleks/Desktop/MainProject/Library/FacebookSDK/Facebook.Unity.Settings.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
@@ -329,13 +330,13 @@
  <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/Facebook/UnityEditor.Facebook.Extensions.dll</HintPath>
  </Reference>
  <Reference Include="TextMeshPro-2017.3-1.0.56-Editor">
- <HintPath>C:/Users/Aleks/Documents/GitHub/MainProject/Assets/MainMenu/TextMesh Pro/Plugins/Editor DLL/TextMeshPro-2017.3-1.0.56-Editor.dll</HintPath>
+ <HintPath>C:/Users/Aleks/Desktop/MainProject/Assets/MainMenu/TextMesh Pro/Plugins/Editor DLL/TextMeshPro-2017.3-1.0.56-Editor.dll</HintPath>
  </Reference>
  <Reference Include="TextMeshPro-2017.3-1.0.56-Runtime">
- <HintPath>C:/Users/Aleks/Documents/GitHub/MainProject/Assets/MainMenu/TextMesh Pro/Plugins/Editor DLL/TextMeshPro-2017.3-1.0.56-Runtime.dll</HintPath>
+ <HintPath>C:/Users/Aleks/Desktop/MainProject/Assets/MainMenu/TextMesh Pro/Plugins/Editor DLL/TextMeshPro-2017.3-1.0.56-Runtime.dll</HintPath>
  </Reference>
  <Reference Include="Pathfinding.Ionic.Zip.Reduced">
- <HintPath>C:/Users/Aleks/Documents/GitHub/MainProject/Assets/Scripts/AstarPathfindingProject/Plugins/DotNetZip/Pathfinding.Ionic.Zip.Reduced.dll</HintPath>
+ <HintPath>C:/Users/Aleks/Desktop/MainProject/Assets/Scripts/AstarPathfindingProject/Plugins/DotNetZip/Pathfinding.Ionic.Zip.Reduced.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.Advertisements">
  <HintPath>C:/Users/Aleks/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.ads@2.0.3/UnityEngine.Advertisements.dll</HintPath>
